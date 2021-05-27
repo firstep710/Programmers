@@ -28,5 +28,5 @@ def solution(new_id):
     while len(ni)<=2:
         ni.append(ni[-1])
     print(ni)
-    answer = ''.join(ni)
+    answer = ''.join(ni) 
     return answer
